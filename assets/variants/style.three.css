@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Arizonia&family=Mooli&family=Poppins&display=swap');
+
+/* * These are the Global Variables * */
+
+:root {
+    --primary: #B5C99A;
+    --font-color: #862B0D;
+    --primary-hover: #F99B7D;
+    --primary-button: #FFF9C9;
+    --primary-font: 'Arimo', sans-serif;
+    --logo-font: 'Arizonia', cursive;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--font-color);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--primary-button);
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid var(--font-color);
+    list-style: none;
+}
+
+
+.nav-items a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-items a:hover {
+    color: var(--primary-hover);
+    transition: all .2s ease-in;
+}
+
+
+.logo span {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.btn-button {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid var(--font-color);
+    background-color: var(--primary-button);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--font-color);
+    cursor: pointer;
+}
+
+.btn-button:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--font-color);
+    transition: all .3s ease-in;
+}
+
+.hero-section {
+    background-color: var(--primary);
+    color: var(--font-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    height: 90vh;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-bottom: 60px;
+}
+
+.main-title h2 {
+    font-size: 70px;
+}
+
+.main-title h2 span {
+    color: var(--primary-hover);
+    font-family: var(--logo-font);
+
+}
+
+.desc {
+    max-width: 600px;
+}
+
+.desc span {
+    font-weight: 200;
+    line-height: 1.4;
+    display: block;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.hero-btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hire-button {
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: 1px solid var(--font-color);
+    font-family: var(--primary-font);
+    color: var(--font-color);
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: .9rem;
+    background-color: var(--primary-button);
+}
+
+.hire-button:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--font-color);
+    transition: all .2s ease-in;
+    color: var(--font-color);
+}
+
+.download-button {
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: 1px solid var(--font-color);
+    background-color: var(--primary-button);
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--font-color);
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: .9rem;
+}
+
+.download-button:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--font-color);
+    transition: all .3s ease-in;
+}
+
+.avatar {
+    font-size: 380px;
+}
+
+.about-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.about-title>h3 {
+    color: var(--font-color);
+}
+
+.title-dev {
+    color: var(--primary-hover);
+}
+
+
+#about {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    background-color: var(--primary);
+    border: 1px solid var(--font-color);
+}
+
+.about-left img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px var(--primary-hover);
+}
+
+
+.about-details {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 5px;
+
+}
+
+.details-bold {
+    font-weight: 800;
+    color: var(--font-color);
+}
+
+.sub-details {
+    font-weight: 30;
+    color: var(--font-color);
+}
+
+.about-btn {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.work-section {
+    background-color: var(--primary);
+    padding: 40px;
+}
+
+.work-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work-section>h4 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: var(--font-color);
+}
+
+.work-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.work-section-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid var(--font-color);
+    max-width: 500px;
+    padding: 40px;
+    gap: 10px;
+    background-color: var(--primary-button);
+    color: var(--font-color);
+    border-radius: 10px;
+}
+
+.work-section-icons .fa-react,
+.fa-code,
+.fa-comments-dollar {
+    font-size: 30px;
+}
+
+.card-btn {
+    color: var(--primary-hover);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-section {
+    padding: 40px;
+    background-color: var(--primary-button);
+    border: 1px solid var(--font-color);
+}
+
+.contact-section>h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--font-color);
+    font-size: 36px;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section form input,
+textarea {
+    width: 400px;
+    outline: none;
+    resize: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--font-color);
+    font-family: var(--primary-font);
+}
+
+.contact-btn {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: var(--primary);
+    color: var(--font-color);
+}
+
+footer a {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.footer-links {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid var(--font-color);
+}
+
+.highlight {
+    color: var(--primary-hover);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    section {
+        align-items: center;
+        flex-direction: column;
+        justify-content: unset;
+        padding:0;
+        height: unset;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        border: 1px solid var(--font-color);
+    }
+
+    .hero-section {
+        flex-direction: column;
+        justify-content: unset;
+        padding-top: 50px;
+        height: unset;
+    }
+
+    .main-title h2 {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 13px;
+    }
+
+    .desc>span {
+        font-size: 15px;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .hero-section{
+        padding-top: 190px;
+    }
+
+    .hero-btns {
+        justify-content: center;
+    }
+
+    .avatar {
+        display: none;
+    }
+    
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-left img {
+        margin-top: 30px;
+    }
+
+    .about-title h3 {
+        text-align: center;
+        margin-top: -30px;
+        font-size: 1em;
+    }
+
+    .about-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .work-section-container {
+        flex-direction: column;
+    }
+
+    .contact-section form input,
+    textarea {
+        width: 300px;
+        overflow: hidden;
+    }
+
+    .details-bold {
+        margin-left: 1px;
+    }
+
+    .footer-links {
+        padding: 1px;
+    }
+}
