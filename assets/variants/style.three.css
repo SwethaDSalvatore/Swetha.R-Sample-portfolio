@@ -2,14 +2,14 @@
 
 /* * These are the Global Variables * */
 
-:root {
+/* :root {
     --primary: #B5C99A;
     --font-color: #862B0D;
     --primary-hover: #F99B7D;
     --primary-button: #FFF9C9;
     --primary-font: 'Arimo', sans-serif;
     --logo-font: 'Arizonia', cursive;
-}
+} */
 
 body {
     font-family: var(--primary-font);

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Arizonia&family=Mooli&family=Poppins&display=swap');
 
-/* * These are the Global Variables * */
+/* color variant 1  */
 
 :root {
     --primary: yellow;
@@ -10,6 +10,27 @@
     --primary-font: 'Arimo', sans-serif;
     --logo-font: 'Arizonia', cursive;
 }
+
+/* color variant 2  */
+/* :root {
+    --primary: #331D2C;
+    --font-color: #EFE1D1;
+    --primary-hover: #A78295;
+    --primary-button: #3F2E3E;
+    --primary-font: 'Arimo', sans-serif;
+    --logo-font: 'Arizonia', cursive;
+} */
+
+/* color variant 3  */
+/* :root {
+    --primary: #B5C99A;
+    --font-color: #862B0D;
+    --primary-hover: #F99B7D;
+    --primary-button: #FFF9C9;
+    --primary-font: 'Arimo', sans-serif;
+    --logo-font: 'Arizonia', cursive;
+} */
+
 
 body {
     font-family: var(--primary-font);
