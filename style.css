@@ -238,6 +238,10 @@ nav {
     color: var(--font-color);
 }
 
+.sub-details a{
+    font-weight: 30;
+    color: var(--font-color);
+}
 
 
 .about-section>h4 {
