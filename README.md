@@ -1,4 +1,4 @@
-# Swetha Ramesh Portfoli (sample)
+# Swetha Ramesh Portfolio (sample)
 You can find my Portfolio with 3 color variants with mobile responsive (_<600px max-width screen sizes_). You can view it here with the detailed instruction below for your convenience. 
 
 ✨**Live Link is Here**: https://swethadsalvatore.github.io/Swetha.R-Sample-portfolio/
@@ -22,13 +22,16 @@ All color variants are below. Color pallets are generated with the [Color Hunt](
 You can access the style sheet from the asset folder. 
 
 #### Color Variant 1
-![This is the Portfolio - Color Variant 1] <link rel="stylesheet" href="./style.css">
+![This is the Portfolio - Color Variant 1] 
+- Uncomment the root 2 and 3 var
 
 #### Color Variant 2
-![This is the Portfolio - Color Variant 1] <link rel="stylesheet" href="./assets/variants/style-two.css">
+![This is the Portfolio - Color Variant 1] 
+- Uncomment the root 1 and 3 var
 
 #### Color Variant 3
-![This is the Portfolio - Color Variant 1] <link rel="stylesheet" href="./assets/variants/style.three.css">
+![This is the Portfolio - Color Variant 1] 
+- Uncomment the root 1 and 2 var
 
 ---
 ### Demo link

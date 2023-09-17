@@ -2,14 +2,14 @@
 
 /* color variant 1  */
 
-:root {
+/* :root {
     --primary: yellow;
     --font-color: black;
     --primary-hover: #AE445A;
     --primary-button: white;
     --primary-font: 'Arimo', sans-serif;
     --logo-font: 'Arizonia', cursive;
-}
+} */
 
 /* color variant 2  */
 /* :root {
@@ -22,14 +22,14 @@
 } */
 
 /* color variant 3  */
-/* :root {
+:root {
     --primary: #B5C99A;
     --font-color: #862B0D;
-    --primary-hover: #F99B7D;
+    --primary-hover: #080a05;
     --primary-button: #FFF9C9;
     --primary-font: 'Arimo', sans-serif;
     --logo-font: 'Arizonia', cursive;
-} */
+}
 
 
 body {
@@ -210,6 +210,8 @@ nav {
     align-items: center;
     background-color: var(--primary);
     border: 1px solid var(--font-color);
+    position: relative;
+    height: 90vh;
 }
 
 .about-left img {
@@ -234,6 +236,15 @@ nav {
 .sub-details {
     font-weight: 30;
     color: var(--font-color);
+}
+
+
+
+.about-section>h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--font-color);
+    font-size: 36px;
 }
 
 .about-btn {
@@ -263,7 +274,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 60px;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -357,7 +368,7 @@ footer a {
         align-items: center;
         flex-direction: column;
         justify-content: unset;
-        padding:0;
+        padding: 0;
         height: unset;
     }
 
@@ -387,7 +398,7 @@ footer a {
         text-align: center;
     }
 
-    .hero-section{
+    .hero-section {
         padding-top: 190px;
     }
 
@@ -398,14 +409,35 @@ footer a {
     .avatar {
         display: none;
     }
-    
-    .about-section {
+
+    #about {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary);
+        border: 1px solid var(--font-color);
+        height: 135vh;
+        padding: 30px;
+    }
+
+    .about-section>h4 {
+        margin-top: 50px;
     }
 
     .about-left img {
-        margin-top: 30px;
+        margin-top: 10px;
     }
+
+    .about-left {
+        padding-left: 8px;
+    }
+
+    .about-details {
+        margin-bottom: 14px;
+        display: block
+    }
+
 
     .about-title h3 {
         text-align: center;
