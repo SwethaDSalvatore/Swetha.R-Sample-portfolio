@@ -2,14 +2,14 @@
 
 /* color variant 1  */
 
-/* :root {
+:root {
     --primary: yellow;
     --font-color: black;
     --primary-hover: #AE445A;
     --primary-button: white;
     --primary-font: 'Arimo', sans-serif;
     --logo-font: 'Arizonia', cursive;
-} */
+}
 
 /* color variant 2  */
 /* :root {
@@ -22,14 +22,14 @@
 } */
 
 /* color variant 3  */
-:root {
+/* :root {
     --primary: #B5C99A;
     --font-color: #862B0D;
     --primary-hover: #080a05;
     --primary-button: #FFF9C9;
     --primary-font: 'Arimo', sans-serif;
     --logo-font: 'Arizonia', cursive;
-}
+} */
 
 
 body {
