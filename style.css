@@ -2,24 +2,24 @@
 
 /* color variant 1  */
 
-:root {
+/* :root {
     --primary: yellow;
     --font-color: black;
     --primary-hover: #AE445A;
     --primary-button: white;
     --primary-font: 'Arimo', sans-serif;
     --logo-font: 'Arizonia', cursive;
-}
+} */
 
 /* color variant 2  */
-/* :root {
+:root {
     --primary: #331D2C;
     --font-color: #EFE1D1;
     --primary-hover: #A78295;
     --primary-button: #3F2E3E;
     --primary-font: 'Arimo', sans-serif;
     --logo-font: 'Arizonia', cursive;
-} */
+}
 
 /* color variant 3  */
 /* :root {
