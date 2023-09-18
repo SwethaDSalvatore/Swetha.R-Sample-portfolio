@@ -1,28 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
 
 /* Global variables */
-
 :root {
-  --primary: #EA1179;
-  --primary-hover: #FFF3CD;
-  --dark-primary: #000000;
+  --primary: #12bdff;
+  --primary-hover: #0c8ec2;
+  --dark-primary: #1b1f24;
   --font-color: #fff;
   --desc-color: #c4c4c4;
-  --contrast-bg-color: #1B2021;
-  --box-shadow-color: #790252;
-  --footer-color: #808080;
-  --primary-font: 'Arimo', sans-serif;
-  --logo-font: 'Arizonia', cursive;
-}
-
-:root {
-  --primary: #EA1179;
-  --primary-hover: #FFF3CD;
-  --dark-primary: #000000;
-  --font-color: #fff;
-  --desc-color: #c4c4c4;
-  --contrast-bg-color: #1B2021;
-  --box-shadow-color: #790252;
+  --contrast-bg-color: #22282f;
+  --box-shadow-color: #03506e;
   --footer-color: #808080;
   --primary-font: 'Arimo', sans-serif;
   --logo-font: 'Arizonia', cursive;
@@ -109,7 +95,7 @@ section.hero-section {
 
 .hero-img img {
   border-radius: 15px;
-  border-bottom: 1px solid var(--primary); 
+  border-bottom: 1px solid var(--primary);
 }
 
 .social-icons {
@@ -235,9 +221,6 @@ section.about-section {
   margin-top: 30px;
   font-size: 15px;
 }
-
-
-
 
 /* Know me more Section */
 
