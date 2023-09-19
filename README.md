@@ -23,15 +23,15 @@ You can access the style sheet from the asset folder.
 
 #### Color Variant 1
 ![This is the Portfolio - Color Variant 1] 
-- Uncomment the root 2 and 3 var
+-https://swethadsalvatore.github.io/Swetha.R-Sample-portfolio/   - Style 1
 
 #### Color Variant 2
 ![This is the Portfolio - Color Variant 1] 
-- Uncomment the root 1 and 3 var
+- https://swethadsalvatore.github.io/Swetha.R-Sample-portfolio/   - Style 2
 
 #### Color Variant 3
 ![This is the Portfolio - Color Variant 1] 
-- Uncomment the root 1 and 2 var
+- https://swethadsalvatore.github.io/Swetha.R-Sample-portfolio/   - Style 3
 
 ---
 ### Demo link
